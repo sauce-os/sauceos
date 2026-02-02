@@ -1,0 +1,25 @@
+[workspace]
+members = [
+    "sauce-cli",
+    # TODO: Add when ready
+    # "sauce-kernel",
+    # "sauce-compiler",
+]
+resolver = "2"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+authors = ["SauceOS Contributors"]
+repository = "https://github.com/sauce-os/sauceos"
+homepage = "https://sauce-os.org"
+documentation = "https://docs.sauce-os.org"
+keywords = ["infrastructure", "unikernel", "intent", "compiler", "cloud"]
+categories = ["development-tools", "command-line-utilities"]
+
+[workspace.dependencies]
+# Core dependencies will be added here
+tokio = { version = "1", features = ["full"] }
+serde = { version = "1", features = ["derive"] }
+clap = { version = "4", features = ["derive"] }
