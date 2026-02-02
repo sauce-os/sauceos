@@ -8,7 +8,7 @@
 
 *Intent-driven infrastructure compiler that generates optimized cloud-native binaries*
 
-[Website](https://sauce-os.org) • [Documentation](https://docs.sauce-os.org) • [Roadmap](docs/ROADMAP.md)
+[Website](https://sauce-os.org) • [Documentation](https://docs.sauce-os.org)
 
 ---
 
@@ -57,10 +57,6 @@ Traditional infrastructure is like receiving a **5-ton construction trailer** wh
 ## 🚀 Status
 
 **Current:** v0.1.0-dev (Early development)
-
-**Next:** Bootable kernel (Week 2)
-
-See [ROADMAP.md](docs/ROADMAP.md) for details.
 
 ---
 
